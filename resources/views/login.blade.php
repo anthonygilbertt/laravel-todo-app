@@ -83,6 +83,11 @@
                 padding-right: 5% !important;
 
             }
+
+            #create-acct {
+                text-decoration: italasized;
+                color: rgb(120, 51, 144);
+            }
         }
 
     </style>
@@ -104,6 +109,7 @@
             <label>
                 <input type="checkbox" value="remember-me"> Remember me
             </label>
+            <p id="create-acct"><a href="/register">Create Account</a></p>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
