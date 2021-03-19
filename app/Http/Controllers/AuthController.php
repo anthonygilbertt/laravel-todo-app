@@ -12,7 +12,7 @@ class AuthController extends Controller {
      */
     public function authenticate()
     {
-        if (Auth::attempt(['email' => $email, 'password' => $password]))
+        if (Auth::attempt(['email' => $email, 'password' => $password], $remember))
         {
             return redirect()->intended('/');
         }

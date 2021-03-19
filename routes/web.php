@@ -19,6 +19,10 @@ Route::group(['middleware' => ['web']], function () {
         return view('login');
     });
 
+    Route::get('/register', function () {
+        return view('register');
+    });
+
     /**
      * Show Task Dashboard
      */
