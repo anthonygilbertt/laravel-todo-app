@@ -30,12 +30,12 @@
 </head>
 
 <body id="app-layout">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default justify-content-center">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header justify-content-center">
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand justify-content-center" href="{{ url('/') }}">
                     Task List
                 </a>
             </div>

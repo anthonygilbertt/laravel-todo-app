@@ -30,7 +30,7 @@
                         <!-- Add Task Button -->
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
-                                <button type="submit" class="btn btn-default">
+                                <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-btn fa-plus"></i>Add Task
                                 </button>
                             </div>
@@ -70,7 +70,7 @@
                                             <form action="/task/{{ $task->id }}" method="POST">
                                                 {{ csrf_field() }}
                                                 {{ method_field('DELETE') }}
-                                                <button>Delete Task</button>
+                                                <button class="btn btn-danger">Delete Task</button>
                                             </form>
                                         </td>
                                     </tr>
