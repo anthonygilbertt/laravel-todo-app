@@ -1,0 +1,3 @@
+<body>
+    Redistration page
+</body>
