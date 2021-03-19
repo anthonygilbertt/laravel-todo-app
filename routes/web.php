@@ -11,10 +11,14 @@
 |
 */
 
-use App\Task;
+use App\Models\Task;
 use Illuminate\Http\Request;
 
 Route::group(['middleware' => ['web']], function () {
+    Route::get('/login', function () {
+        return view('login');
+    });
+
     /**
      * Show Task Dashboard
      */
